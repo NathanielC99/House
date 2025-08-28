@@ -64,6 +64,7 @@ public class Picture
             sun2.moveVertical(-50);
             sun2.changeSize(80);
             sun2.makeVisible();
+            sun2.slowMoveVertical(500);
             drawn = true;
         }
     }
